@@ -1,0 +1,234 @@
+
+.nav{
+    position: relative;
+    width: 70%;
+    left: 10%;
+    top: 20px;
+}
+.navbar li{
+    list-style: none;
+    position: relative;
+    float: left;
+    
+}
+.navbar a{
+    display: block;
+    padding: 15px 5px;
+    margin-right: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(246, 245, 244);
+    font-size: 25px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.navbar a:hover{
+    background-color: #a3a1a1;
+    color: white;   
+    z-index: 1;
+}
+
+.navbar li:hover .hakkimizda_altbar {
+    display: block;
+}
+.navbar li:hover .hizmetler_altbar {
+    display: block;
+}
+.hizmetler_altbar li:hover .hibe_altbar {
+    display: block;
+}
+.hibe_altbar li:hover .kosgeb_altbar {
+    display: block;
+}
+
+.hizmetler_altbar li:hover .belgelendirme_altbar {
+    display: block;
+}
+.belgelendirme_altbar li:hover .iso_altbar {
+    display: block;
+}
+
+.hizmetler_altbar li:hover .kirsal_altbar {
+    display: block;
+}
+
+
+.hizmetler_altbar li:hover .teknoloji_altbar {
+    display: block;
+}
+
+.hizmetler_altbar{
+    position: absolute;
+    height: 100px;
+    left: -40px;
+    display: none;
+}
+.hizmetler_altbar li{
+    float: none;
+}
+
+.hizmetler_altbar a{
+    padding: 15px 5px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(214, 213, 213);
+    font-size: 15px;
+    font-weight: bold;
+    width: 300px;
+    border-radius: 15px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid black;
+}
+
+.teknoloji_altbar{
+    position: absolute;
+    height: 100px;
+    left: 280px;
+    top: 0px;
+    display: none;
+}
+.teknoloji_altbar li{
+    float: none;
+}
+
+.teknoloji_altbar a{
+    padding: 15px 5px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(214, 213, 213);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 250px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid black;
+}
+
+.belgelendirme_altbar{
+    position: absolute;
+    height: 100px;
+    left: 280px;
+    top: 0px;
+    display: none;
+}
+.belgelendirme_altbar li{
+    float: none;
+}
+
+.belgelendirme_altbar a{
+    padding: 15px 5px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(214, 213, 213);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 150px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid black;
+}
+
+.hibe_altbar{
+    position: absolute;
+    height: 100px;
+    left: 280px;
+    top: 0px;
+    display: none;
+}
+.hibe_altbar li{
+    float: none;
+}
+
+.hibe_altbar a{
+    padding: 15px 5px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(214, 213, 213);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 300px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid black;
+}
+
+.kirsal_altbar{
+    position: absolute;
+    height: 100px;
+    left: 280px;
+    top: 0px;
+    display: none;
+}
+.kirsal_altbar li{
+    float: none;
+}
+
+.kirsal_altbar a{
+    padding: 15px 5px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(214, 213, 213);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 300px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid black;
+}
+
+.iso_altbar{
+    position: absolute;
+    height: 100px;
+    left: 130px;
+    top: 0px;
+    display: none;
+}
+.iso_altbar li{
+    float: none;
+}
+
+.iso_altbar a{
+    padding: 15px 5px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(214, 213, 213);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 100px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid black;
+}
+
+.kosgeb_altbar{
+    position: absolute;
+    height: 100px;
+    left: 280px;
+    top: 0px;
+    display: none;
+}
+.kosgeb_altbar li{
+    float: none;
+}
+
+.kosgeb_altbar a{
+    padding: 15px 5px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(214, 213, 213);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 150px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid black;
+}

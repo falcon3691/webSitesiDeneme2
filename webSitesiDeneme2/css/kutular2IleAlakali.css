@@ -1,0 +1,73 @@
+
+.kutular2{
+    width: 100%;
+    height: 505px;
+    position: relative;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.kutu2{
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    margin-right: 30px;
+    float: left;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 200px 70px 200px;
+}
+.kutu2 img{
+    width: 300px;
+    height: 200px;
+}
+
+.kutular2 button{
+    position: absolute;
+    font-size: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 15px;
+    background-color: hsla(0, 0%, 0%, 0.497);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.onceki{
+    left: 16%;
+}
+.sonraki{
+    right: 17%;
+}
+
+.kutular3{
+    display: none;
+    margin-left: 20%;
+}
+.kutular3.goster{
+    display: block;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+.kutu4{
+    width: 1000px;
+    height: 500px;
+}
+
+.kutu2_yazi{
+    font-family: 'Titillium Web',sans-serif;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+.kutu2_baslik{
+    font-family: 'Titillium Web',sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.kutular3 a{
+    text-decoration: none;
+    color: black;
+}

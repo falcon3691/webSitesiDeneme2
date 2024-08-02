@@ -1,0 +1,65 @@
+body{
+    width: auto;
+    height: auto;
+    overflow-x: hidden;
+}
+
+.banner{
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    background-color: rgb(246, 245, 244);
+    top:0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+}
+
+
+.banner_logo{
+    position: relative;
+    left: 30px;
+}
+
+.banner_tel{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    display: flex;
+    align-items: center;
+}
+.banner_tel img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.banner_tel p{
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes fade{
+    from{opacity: 0.1;}
+    to{opacity: 1;}
+}
+.sag_margin10{
+    margin-right: 5px;
+}
+.banner_whatsapp{
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    display: flex;
+    align-items: center;
+}
+.banner_whatsapp img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.banner_whatsapp p{
+    margin: 0;
+    padding: 0;
+
+}

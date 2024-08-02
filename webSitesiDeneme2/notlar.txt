@@ -1,0 +1,44 @@
+
+.banner_navBar{
+    position: relative;
+    overflow: hidden;
+    width: 403px;
+    height: 48px;
+    top: 10px;
+    left: 25%;
+}
+.banner_navBar a{
+    float: left;
+    background-color: black;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.banner_navBar a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.hakkimizda_altNav{
+    position: absolute;
+    top: 70px;
+    left: 43.5%;
+    z-index: 1;
+    border: 1px solid red;
+}
+.hakkimizda_altNav a{
+    float: left;
+    background-color: black;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.hakkimizda:hover .hakkimizda_altNav{
+    display: inline-block;
+    z-index: 1;
+}

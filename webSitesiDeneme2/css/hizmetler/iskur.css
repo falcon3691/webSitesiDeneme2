@@ -1,0 +1,33 @@
+.icerik{
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.icerik lh{
+    margin: 0px;
+}
+.icindekiler{
+    margin-left: 60px;
+    margin-top : 130px;
+    width: 550px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.icindekiler a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.icindekiler a:hover{
+    background-color: grey;
+    color: white;
+}
+h5{
+    color: red;
+}
+
+html {
+    scroll-padding-top: 110px; 
+}

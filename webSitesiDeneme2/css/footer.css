@@ -1,0 +1,50 @@
+.footer{
+    width: 100%;
+    height: 160px;
+    position: relative;
+    background-color: rgb(246, 245, 244);
+    display: flex;
+}
+
+.footer p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+}
+.kisisel{
+    border: 5px solid #FFD700;
+    height: 30%;
+    width: 15%;
+    padding: 10px;
+    text-align: center;
+    margin-right: 15px;
+    margin-top: 50px;
+}
+.info{
+    position: absolute;
+    bottom: 20px;
+    left: 45%;
+    padding: 5px;
+    text-align: center;
+    height: 10%;
+}
+.info a{
+    text-decoration: none;
+    color: black;
+}
+.info a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.sosyal{
+    position: absolute;
+    right: 2%;
+    top: 10%;
+}
+.sosyal img{
+    display: table-column;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 5px;
+}
