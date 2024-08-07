@@ -4,6 +4,7 @@
     margin-right: 10%;
     margin-bottom: 10px;
     padding: 10px;
+    font-size: larger;
 }
 .icerik lh{
     margin: 0px;
@@ -11,8 +12,7 @@
 .icindekiler{
     margin-left: 15%;
     margin-top : 130px;
-    width: 300px;
-    border: 1px solid black;
+    width: fit-content;
     border-radius: 15px;
 }
 .icindekiler a{
@@ -42,7 +42,7 @@ html {
     height: fit-content;
     display: grid;
     grid-template-columns: 300px;
-    grid-template-rows: 250px 50px 100px;
+    grid-template-rows: 250px 50px 150px;
     border: 1px solid black;
     filter: drop-shadow(0px 0px 3px #000);
     filter: blur(0.4px);
