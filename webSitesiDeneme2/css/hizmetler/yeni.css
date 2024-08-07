@@ -1,16 +1,6 @@
 .icerik {
     margin-top: 150px;
     margin-bottom: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
-
-.icerikyazi p{
-   
-    margin-left: 400px;
-    display: inline-block;
-    width: 635px;
-}
-.icerikyazi h1,h2{
- text-align: center;
- margin-bottom: 30px;
-}
-

@@ -1,12 +1,24 @@
 /*Telefonlar için boyut*/
 @media(min-width: 576px) and (max-width: 992px){
+    body{
+        min-width: 576px;
+        max-width: 992px;
+        background-color: aqua;
+    }
 }
 /*Tabletler için boyut*/
 @media(min-width: 992px) and (max-width: 1200px){
+    body{
+        min-width: 992px;
+        max-width: 1200px;
+        background-color: rebeccapurple;
+    }
 }
-/*Diz üstüler için boyut*/
+/*Bilgisayarlar için boyut*/
 @media(min-width: 1200px) and (max-width: 1600px){
-}
-/*Masa üstüler için boyut*/
-@media(min-width: 1600px){
+    body{
+        min-width: 1200px;
+        max-width: 1600px;
+        background-color: green;
+    }
 }
